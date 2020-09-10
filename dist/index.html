@@ -14,8 +14,47 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <main class="container">
+      <div id="graphicContainer" class="container vh60">
+        <div class="row">
+          <div class="vh60"></div>
+        </div>
+      </div>
+
+      <div id="statsContainer" class="container bg-stats">
+        <div class="row text-center">
+          <div class="col vh10 d-flex justify-content-center" id="location">
+            <p class="my-auto">Location</p>
+          </div>
+          <div class="col vh10 d-flex justify-content-center" id="temp">
+            <p class="my-auto">Temp</p>
+          </div>
+          <div class="col vh10 d-flex justify-content-center" id="weatherType">
+            <p class="my-auto">Weather Type</p>
+          </div>
+          <div class="col vh10 d-flex justify-content-center" id="humidity">
+            <p class="my-auto">Humidity</p>
+          </div>
+          <div class="col vh10 d-flex justify-content-center" id="rainChance">
+            <p class="my-auto">Rain Chance</p>
+          </div>
+        </div>
+      </div>
+      <div id="searchContainer" class="container bg-search">
+        <div class="row vh10">
+          <div class="col-7 h-100 d-flex justify-content-center" id="searchBar">
+            <p class="my-auto">Search</p>
+          </div>
+          <div class="col-5 h-100 d-flex justify-content-center" id="goButton">
+            <p class="my-auto">Go</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
