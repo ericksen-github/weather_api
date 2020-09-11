@@ -22,7 +22,16 @@ const apiFunctions = (() => {
 
   // takes response.json() data and adds it to an object info
   const handleInfo = (newData) => {
-    console.log(newData);
+    const info = {};
+    info.currentTemp = newData.main.temp;
+    info.weatherStatus = newData.weather[0].main;
+    info.weatherDescription = newData.weather[0].description;
+    info.location = newData.name + ", " + newData.sys.country;
+    info.tempHigh = newData.main.temp_max;
+    info.tempLow = newData.main.temp_min;
+    info.humidity = newData.main.humidity;
+
+    console.log(info);
   };
 
   return {
