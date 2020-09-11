@@ -2,6 +2,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  width: 80%;
+}
+
+#graphicContainer {
+  height: 60vh;
+}
+
+#cityGraphic {
+  height: 100%; /* height of container */
+  max-width: 100%;
+  object-fit: fill;
 }
 
 .bg-stats {
@@ -14,8 +25,4 @@ main {
 
 .vh10 {
   height: 10vh;
-}
-
-.vh60 {
-  height: 60vh;
 }
