@@ -1,76 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <main class="container">
-      <div class="row overflow-hidden">
-        <div id="graphicContainer" class="container col-12">
-          <img id="cityGraphic" src="./imgs/3042.jpg" />
-        </div>
+    <main>
+      <div id="graphicContainer">
+        <img id="cityGraphic" src="./imgs/3042.jpg" />
       </div>
-      <div id="statsContainer" class="container bg-stats">
-        <div class="row text-center">
-          <div class="col vh10 d-flex justify-content-center" id="location">
-            <p class="my-auto">Location</p>
-          </div>
-          <div class="col vh10 d-flex justify-content-center" id="temp">
-            <p class="my-auto">Temp</p>
-          </div>
-          <div class="col vh10 d-flex justify-content-center" id="weatherType">
-            <p class="my-auto">Weather Type</p>
-          </div>
-          <div class="col vh10 d-flex justify-content-center" id="humidity">
-            <p class="my-auto">Humidity</p>
-          </div>
-          <div class="col vh10 d-flex justify-content-center" id="rainChance">
-            <p class="my-auto">Rain Chance</p>
-          </div>
-        </div>
+      <div id="statsContainer">
+        <p>Location</p>
+        <p>Temp</p>
+        <p>Weather Type</p>
+        <p>Humidity</p>
+        <p>Rain Chance</p>
       </div>
-      <div id="searchContainer" class="container bg-search">
-        <div class="row vh10">
-          <div class="col-7 h-100 d-flex justify-content-center" id="searchBar">
-            <p class="my-auto">Search</p>
-          </div>
-          <div class="col-5 h-100 d-flex justify-content-center" id="goButton">
-            <p class="my-auto">Go</p>
-          </div>
+      <div id="searchContainer">
+        <p>Search</p>
+        <div id="goButton">
+          <p>Go</p>
         </div>
       </div>
     </main>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
     <script src="main.js"></script>
   </body>
 </html>
