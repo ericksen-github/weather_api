@@ -1,26 +1,38 @@
 main {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 
 #graphicContainer {
+  display: flex;
   height: 60vh;
 }
 
 #cityGraphic {
   height: 100%; /* height of container */
-  max-width: 100%;
-  object-fit: fill;
 }
 
-.bg-stats {
-  background-color: rgb(255, 156, 43);
+#statsContainer {
+  background-color: rgb(228, 176, 81);
+  width: 80%;
 }
 
-.bg-search {
-  background-color: rgb(209, 209, 209);
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#searchWrapper {
+  width: 80%;
+}
+
+#searchContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(196, 193, 193);
 }
 
 .vh10 {
